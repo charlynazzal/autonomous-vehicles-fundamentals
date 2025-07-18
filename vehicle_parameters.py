@@ -26,3 +26,21 @@ elif fuel_percentage < 50:
     print('Fuel levels below 50%')
 else:
     print('Fuel levels are good to go')
+
+# Vehicle Mass (kg): Total weight of the vehicle, important for calculating forces and acceleration
+
+# Engine Power (kW): The power output of the engine (1 kW ≈ 1.34 horsepower)
+
+# Power-to-Weight Ratio: Engine power divided by vehicle mass - key for performance
+
+# Fuel Capacity/Current Fuel: Fuel system parameters (in liters)
+
+# Estimated Range: How far the vehicle can travel with current fuel (km)
+
+# The vehicle's mass affects braking distance and acceleration
+
+# Power-to-weight ratio impacts merging and passing capabilities
+
+# Fuel/energy status determines operational range
+
+# Range estimation is crucial for route planning
