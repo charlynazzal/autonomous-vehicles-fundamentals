@@ -4,8 +4,8 @@
 print("GPS converter: ")
 
 # Dubai coordinates
-dubai_mall_lat = 25.1972
-dubai_mall_lon = 55.2796
+dubai_mall_lat = 25.1972 # Latitude is North and South
+dubai_mall_lon = 55.2796 # Longitude is East and West
 
 # Convert to degrees, minutes, seconds format
 def decimals_to_degrees(decimals_degrees):
@@ -17,11 +17,11 @@ def decimals_to_degrees(decimals_degrees):
 
 # Convert latitude
 lat_deg, lat_min, lat_sec = decimals_to_degrees(abs(dubai_mall_lat))
-lat_direction = 'N' if dubai_mall_lat >= 0 else 'S'
+lat_direction = 'N' if dubai_mall_lat >= 0 else 'S' # Checks if latitude is positive/North or negative/South
 
 # Convert longitude
 lon_deg, lon_min, lon_sec = decimals_to_degrees(abs(dubai_mall_lon))
-lon_direction = 'E' if dubai_mall_lon >= 0 else 'W'
+lon_direction = 'E' if dubai_mall_lon >= 0 else 'W' # Checks if longitude is positive/East or negative/West
 
 print(f"Dubai Mall Coordinates: ")
 print(f"Decimal: {dubai_mall_lat:.6f}°, {dubai_mall_lon:.6f}°")
